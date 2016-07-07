@@ -24,3 +24,4 @@ Use the following page and create the layout with CSS and HTML.
 
 ## Resources
 * [Github Repo](https://github.com/tiy-lv-java-2016-06/pier-fun)
+* [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
