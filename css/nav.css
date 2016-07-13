@@ -1,0 +1,227 @@
+body {
+  background:#eee;
+  font-size:13px;
+  font-weight:100;
+  font-family:"Avenir Next", Roboto, "Open Sans", sans-serif
+;
+}
+
+#container {
+  width:990px;
+  margin:0 auto;
+  -webkit-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
+}
+
+.secondary {
+  background:#1667a1;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  height:36px;
+}
+
+.secondary a{
+  color:white;
+  text-decoration:none;
+}
+
+.profile {
+  display:flex;
+  list-style:none;
+  padding-left:0;
+  height:36px;
+  margin-top:0;
+}
+.profile li {
+  height:36px;
+  line-height:36px;
+  margin:0 5px;
+}
+
+.profile li:first-child a {
+  border-left:none;
+}
+.profile li a {
+  border-left:1px solid white;
+  padding-left:8px;
+}
+.store i {
+  font-size:28px;
+  padding-top:5px;
+  float:left;
+  margin-right:10px;
+}
+
+.store-location {
+  font-weight:bold;
+  position:relative;
+  top:3px;
+}
+
+.cart {
+  line-height:36px;
+  margin-right:10px;
+}
+
+.cart i {
+  font-size:28px;
+  line-height:36px;
+}
+.basket {
+  position:relative;
+  top:-5px;
+}
+
+/*Second navbar styling*/
+
+.logo{
+  font-size: 24px;
+  font-family: impact;
+
+}
+.section2 {
+  display:flex;
+  justify-content:space-between;
+  height:70px;
+}
+
+.section2 a{
+  color:white;
+  text-decoration:none;
+}
+
+.brand {
+  display:flex;
+  list-style:none;
+  padding-left:0;
+  height:36px;
+  margin-top:0;
+}
+
+.instore-pickup {
+  font-weight:bold;
+  position:relative;
+  top:3px;
+  color:#1667a1;
+}
+.details {
+  font-weight: bold;
+}
+
+
+/*Third navbar styling*/
+
+.main {
+  background:#5f564f;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  height:60px;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+}
+
+.main a{
+  color:white;
+  text-decoration:none;
+}
+
+.nav {
+  display:flex;
+  list-style:none;
+  padding-left:0;
+  height:36px;
+  margin-top:0;
+}
+.nav li {
+  height:36px;
+  line-height:20px;
+  margin:0 5px;
+
+}
+.nav li:first-child a {
+  border-left:none;
+}
+.nav li a {
+  border-left:1px solid white;
+  padding-left:8px;
+}
+
+/*Fourth navbar styling*/
+
+.section4{
+  display:flex;
+  justify-content:space-between;
+  height:38px;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+}
+.onsale {
+  display:flex;
+  list-style:none;
+  padding-left:100px;
+  height:36px;
+  font-weight: bold;
+  margin-top:0;
+}
+.onsale li {
+  height:42px;
+  line-height:36px;
+  margin:4px;
+}
+.onsale li:first-child a {
+  border-left:none;
+}
+.onsale li a {
+  border-left-color: #5f564f;
+  border-left:1px solid white;
+  padding-left:8px;
+}
+.section4 a{
+  color:#5f564f;
+  text-decoration:none;
+}
+.sale{
+  color: red;
+}
+
+/*Fifth navbar styling*/
+
+.section5{
+  background-image: url('../images/red_flower.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display:flex;
+  justify-content:space-between;
+  height:42px;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+}
+.clearance {
+  display:flex;
+  list-style:none;
+  padding-left:100px;
+  height:36px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top:0;
+}
+.clearance li {
+  height:36px;
+  line-height:36px;
+  margin:0 5px;
+}
+.clearance li:first-child a {
+  border-left:none;
+}
+.clearance li a {
+  border-left:1px solid white;
+  padding-left:36px;
+  padding-right:30px;
+}
+.section5 a{
+  color: white;
+  text-decoration:none;
+}
+
+

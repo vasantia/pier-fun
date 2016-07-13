@@ -1,0 +1,64 @@
+
+
+.blox{
+  display:flex;
+  justify-content:space-between;
+  background-color: white;
+  height: auto;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+  font-size: 11px;
+}
+.blox a{
+  text-decoration: none;
+  color:black;
+}
+.left-pane{
+  height:auto;
+  margin-top:0;
+  border-right-style: solid;
+  border-right-color: lightgray;
+  
+}
+.left-pane li {
+  height:auto;
+  font-size: 11px;
+  color: black;
+  min-width: 200px;
+  margin:0 5px;
+  list-style: none;
+}
+.outdoor{
+  font-size: 18px;
+}
+.bold{
+  font-weight: 500;
+}
+.right-pane{
+  flex-direction: column;
+  height: auto;
+  min-width: 750px;
+  margin-top: 0;
+}
+.mininav {
+  display:flex;
+  list-style:none;
+  height:34px;
+  margin-top:0;
+}
+.mininav li {
+  height:36px;
+  font-size: 14px;
+  margin:0 5px;
+}
+.items{
+  border-top-style: solid;
+  border-top-color: lightgray;
+}
+.chairs{
+
+}
+.chairs li {
+  height:auto;
+  margin:3px;
+  list-style: none;
+}

@@ -1,0 +1,50 @@
+.section6{
+  display:flex;
+  justify-content:space-between;
+  height:40px;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+}
+.mininav {
+  display:flex;
+  list-style:none;
+  padding-left:10px;
+  height:34px;
+  margin-top:0;
+}
+.mininav li {
+  height:36px;
+  line-height:36px;
+  font-size: 18px;
+  margin:0 5px;
+}
+.section6 a{
+  color: #1667a1;
+}
+
+.section7{
+  display:flex;
+  justify-content:space-between;
+  height:auto;
+  font-family: 'Avenir Next', 'Roboto', 'Open Sans', 'sans-serif';
+  background-color: white;
+}
+.chairs{
+  margin: 30px 0 0 30px;
+
+}
+.buy{
+  min-width: 480px;
+  margin: 30px 30px 0 0;
+  border-style: solid;
+  border-color: lightgray;
+  padding-right: 10px;
+
+}
+.header{
+  font-size: 26px;
+  font-weight: bold;
+}
+.add{
+  height: 26px;
+  background-color: lightgray;
+}
